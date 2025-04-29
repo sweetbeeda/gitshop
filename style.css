@@ -40,17 +40,79 @@
   width: 0%;
   border-bottom: 2px solid #747474;
   height: 10px;
-  position:absolute;
+  position: absolute;
   top: 20px;
   left: 0px;
 }
-.nav-bar li a:hover::after{
-width: 100%;
-transition: 300ms;
-
+.nav-bar li a:hover::after {
+  width: 100%;
+  transition: 300ms;
 }
 .icons i {
   padding-right: 20px;
   font-size: 20px;
   text-align: center;
+}
+main {
+  background: rgba(128, 128, 128, 0.066);
+}
+.hero-section {
+  margin-left: 90px;
+  margin-right: 90px;
+  background: #f3ecde;
+}
+.hero-section span {
+  font-weight: bold;
+}
+.span {
+  text-transform: capitalize;
+  position: relative;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.span::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  border-bottom: 1px solid hsla(0, 0%, 50%, 0.514);
+  width: 100%;
+  left: 0;
+}
+.span:hover::after{
+  width: 0%;
+  transition: 400ms ease-in-out;
+}
+.All-product-image img {
+  width: 200px;
+  border-radius: 5px;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 60px; */
+  /* margin-bottom: 60px; */
+}
+.hero-content h1,
+h5,
+p {
+  font-family: "poppins";
+}
+.hero-content h5{
+  color: rgba(128, 128, 128, 0.514);
+}
+.hero-content h1 {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.hero-content p {
+  font-size: 16px;
+}
+.All-product {
+  text-align: left;
+  width: 600px;
+  padding-right: 20px;
+  padding-top: 4rem;
+  padding-bottom  : 3rem;
 }
