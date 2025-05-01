@@ -195,4 +195,13 @@
     color: black;
     cursor: pointer;
   }
+  .product-content{
+    display: flex;
+    border: 1px solid black;
+    overflow:hidden; 
+    gap: 20px;
+  }
+  .product-content img{
+    width: 400px;
+  }
 }
